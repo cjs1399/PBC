@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2593FAEF29A35C5A0092E9E3 /* EvaluationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593FAEE29A35C5A0092E9E3 /* EvaluationView.swift */; };
+		2593FAF129A35CE70092E9E3 /* CurriculumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593FAF029A35CE70092E9E3 /* CurriculumView.swift */; };
+		2593FAF329A35CF40092E9E3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593FAF229A35CF40092E9E3 /* MainView.swift */; };
+		2593FAF529A35D0D0092E9E3 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593FAF429A35D0D0092E9E3 /* RootView.swift */; };
+		2593FAF729A35D240092E9E3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593FAF629A35D240092E9E3 /* SettingView.swift */; };
+		2593FAF929A361A90092E9E3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593FAF829A361A90092E9E3 /* LoginView.swift */; };
 		25C20E2329A0E9C300B92C17 /* PBCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C20E2229A0E9C300B92C17 /* PBCApp.swift */; };
 		25C20E2529A0E9C300B92C17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C20E2429A0E9C300B92C17 /* ContentView.swift */; };
 		25C20E2729A0E9C400B92C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C20E2629A0E9C400B92C17 /* Assets.xcassets */; };
@@ -14,6 +20,9 @@
 		25C20E3429A0E9C400B92C17 /* PBCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C20E3329A0E9C400B92C17 /* PBCTests.swift */; };
 		25C20E3E29A0E9C400B92C17 /* PBCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C20E3D29A0E9C400B92C17 /* PBCUITests.swift */; };
 		25C20E4029A0E9C400B92C17 /* PBCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C20E3F29A0E9C400B92C17 /* PBCUITestsLaunchTests.swift */; };
+		25C20E4D29A0E9DC00B92C17 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C20E4C29A0E9DC00B92C17 /* TabbarView.swift */; };
+		25C20E5329A0FFAF00B92C17 /* Find_UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C20E5229A0FFAF00B92C17 /* Find_UserData.swift */; };
+		25C20E5529A107CC00B92C17 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C20E5429A107CC00B92C17 /* Signup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2593FAEE29A35C5A0092E9E3 /* EvaluationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluationView.swift; sourceTree = "<group>"; };
+		2593FAF029A35CE70092E9E3 /* CurriculumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumView.swift; sourceTree = "<group>"; };
+		2593FAF229A35CF40092E9E3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2593FAF429A35D0D0092E9E3 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		2593FAF629A35D240092E9E3 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		2593FAF829A361A90092E9E3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		25C20E1F29A0E9C300B92C17 /* PBC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C20E2229A0E9C300B92C17 /* PBCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBCApp.swift; sourceTree = "<group>"; };
 		25C20E2429A0E9C300B92C17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,9 @@
 		25C20E3929A0E9C400B92C17 /* PBCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PBCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C20E3D29A0E9C400B92C17 /* PBCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBCUITests.swift; sourceTree = "<group>"; };
 		25C20E3F29A0E9C400B92C17 /* PBCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25C20E4C29A0E9DC00B92C17 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		25C20E5229A0FFAF00B92C17 /* Find_UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_UserData.swift; sourceTree = "<group>"; };
+		25C20E5429A107CC00B92C17 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +114,15 @@
 			children = (
 				25C20E2229A0E9C300B92C17 /* PBCApp.swift */,
 				25C20E2429A0E9C300B92C17 /* ContentView.swift */,
+				25C20E4C29A0E9DC00B92C17 /* TabbarView.swift */,
+				2593FAF829A361A90092E9E3 /* LoginView.swift */,
+				25C20E5429A107CC00B92C17 /* Signup.swift */,
+				25C20E5229A0FFAF00B92C17 /* Find_UserData.swift */,
+				2593FAEE29A35C5A0092E9E3 /* EvaluationView.swift */,
+				2593FAF029A35CE70092E9E3 /* CurriculumView.swift */,
+				2593FAF229A35CF40092E9E3 /* MainView.swift */,
+				2593FAF429A35D0D0092E9E3 /* RootView.swift */,
+				2593FAF629A35D240092E9E3 /* SettingView.swift */,
 				25C20E2629A0E9C400B92C17 /* Assets.xcassets */,
 				25C20E2829A0E9C400B92C17 /* Preview Content */,
 			);
@@ -257,8 +284,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2593FAF129A35CE70092E9E3 /* CurriculumView.swift in Sources */,
+				2593FAF729A35D240092E9E3 /* SettingView.swift in Sources */,
+				2593FAF329A35CF40092E9E3 /* MainView.swift in Sources */,
+				25C20E4D29A0E9DC00B92C17 /* TabbarView.swift in Sources */,
+				25C20E5529A107CC00B92C17 /* Signup.swift in Sources */,
+				2593FAEF29A35C5A0092E9E3 /* EvaluationView.swift in Sources */,
+				2593FAF529A35D0D0092E9E3 /* RootView.swift in Sources */,
 				25C20E2529A0E9C300B92C17 /* ContentView.swift in Sources */,
+				2593FAF929A361A90092E9E3 /* LoginView.swift in Sources */,
 				25C20E2329A0E9C300B92C17 /* PBCApp.swift in Sources */,
+				25C20E5329A0FFAF00B92C17 /* Find_UserData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
